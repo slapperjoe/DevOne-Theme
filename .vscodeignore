@@ -1,0 +1,30 @@
+# Files and folders to exclude from the VSIX
+node_modules
+.vscode
+.vscode-test
+.vs
+.git
+.gitignore
+.gitattributes
+.github
+tests
+test
+coverage
+npm-debug.log*
+yarn-error.log*
+*.log
+.DS_Store
+*.ts
+*.map
+src/**/*.map
+src/**/*.ts
+gulpfile.js
+Gruntfile.js
+.vscodeignore
+*.vsix
+.idea
+*.iml
+
+# Keep icons and theme files (do not exclude these)
+# icon.png
+# themes/devone-color-theme.json
