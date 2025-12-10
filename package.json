@@ -1,0 +1,40 @@
+{
+  "name": "devone-theme",
+  "displayName": "DevOne Theme",
+  "publisher": "Dev1",
+  "version": "0.0.1",
+  "description": "Hybrid light theme blending Solarized, Spacegray Ocean, and Mermaid Light cues.",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": ["Themes"],
+  "keywords": [
+    "light",
+    "solarized",
+    "spacegray",
+    "mermaid",
+    "pink",
+    "devone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dev1/TouchScreen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dev1/TouchScreen/issues"
+  },
+  "galleryBanner": {
+    "color": "#F4F0E6",
+    "theme": "light"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "DevOne (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/devone-color-theme.json"
+      }
+    ]
+  }
+}
